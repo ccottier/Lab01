@@ -24,5 +24,6 @@
 function myFunction() {
   var userName = prompt('What\'s Your Name?');
   alert('Hello' + userName + 'Thanks for coming to my site.');
-  console.log('dave');
+
 }
+myFunction()
