@@ -14,15 +14,17 @@ if (answerOne === myAnswerOne) {
 }
 myAnswerOne()
 
-var answerTwo = prompt('Do I prefer dogs over cats?');
-var myAnswerTwo = 'No';
+function myPet() {
+  var answerTwo = prompt('Do I prefer cats to dogs?');
+  var myAnswerTwo = 'No';
+}
 
 if (answerTwo === myAnswerTwo) {
   alert('Correct. I love cats.');
 } else {
   alert('Nope. I much prefer cats over dogs.');
 }
-myAnswerTwo()
+myPet()
 
 
 var answerThree = prompt('Am I a morning person?');
@@ -34,3 +36,15 @@ if (answerThree === myAnswerThree) {
   alert('Incorrect. I\'m not an early bird.');
 }
 myAnswerThree()
+
+function myColor() {
+  var answerFour = prompt('Is red my favorite color?');
+  myAnswerFour = 'No';
+}
+
+if (answerFour === myAnswerFour) {
+  alert('Correct! I love green.');
+} else {
+  alert('Nice try, but green is actually my favorite color.');
+}
+myAnswerFour()
