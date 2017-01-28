@@ -23,7 +23,29 @@
 
 function myFunction() {
   var userName = prompt('What\'s Your Name?');
-  alert('Hello' + userName + 'Thanks for coming to my site.');
-
+  alert('Hello '+ userName +'\! Thanks for coming to my first website.');
 }
 myFunction()
+
+// function guessingGame (){
+//   var userAnswer = prompt('Would you like to play a game to get to know me a little better?');
+// }
+//
+//   if (userAnswer === 'Yes' || 'Y'); {
+//     alert('Great! Let\'s begin.');
+// } else {
+//     alert('No worries!  Maybe next time?');
+//   }
+//
+// guessingGame()
+
+var answerOne = prompt('In which state was I born?');
+var myAnswerOne = 'Pennsylvania';
+
+if (answerOne === myAnswerOne) {
+  alert('You are correct! I was born in the oldest hospital in the United States which was founded by Ben Franklin.');
+} else {
+  alert('Sorry, that was incorrect.  I was born in Philadelphia, PA.');
+}
+
+myAnswerOne()
