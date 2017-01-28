@@ -1,7 +1,10 @@
 body {
   font: helvetica, sans-serif;
-  color: black;
-  background-color: 	#808080;
+  text-align: center;
+  color: #21D3CA;
+  background-color: 	black;
+  background-image:  url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/3ac5b424607907.5633711d47ccf.jpg");
+
 }
 
 h1 {
