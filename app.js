@@ -33,5 +33,4 @@ if (answerThree === myAnswerThree) {
 } else {
   alert('Incorrect. I\'m not an early bird.');
 }
-
 myAnswerThree()
